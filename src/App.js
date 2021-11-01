@@ -1,13 +1,15 @@
 import React from "react";
-import "./App.css";
-import Counter from "./Counter";
+import { ThemeProvider } from "@material-ui/core/styles";
+import baseTheme from "../src/themes";
 
-function App() {
+import HomePage from "../src/pages/HomePage";
+
+const App = () => {
   return (
-      <div className="App">
-        <Counter />
-      </div>
+    <ThemeProvider theme={baseTheme}>
+      <HomePage />
+    </ThemeProvider>
   );
-}
+};
 
 export default App;
