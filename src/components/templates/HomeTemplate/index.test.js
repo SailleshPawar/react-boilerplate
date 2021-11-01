@@ -1,5 +1,6 @@
 import { ThemeProvider } from "@material-ui/core/styles";
 import baseTheme from "../../../themes";
+import React from "react";
 
 import { render } from "enzyme";
 
