@@ -29,11 +29,7 @@ const AddEventBanner = (props) => {
     (field) => {
       const input = inputFieldValue[field];
       const currentValidationState = fieldToValidate;
-      if (input === null || input === "") {
-        currentValidationState[field] = true;
-      } else {
-        currentValidationState[field] = false;
-      }
+      currentValidationState[field] = input === null || input === "";
       setFieldValidation({ ...currentValidationState });
       return !currentValidationState[field];
     },
@@ -42,7 +38,7 @@ const AddEventBanner = (props) => {
 
   const isValid = useCallback(() => {
     let validationStatus = true;
-    Object.keys(fieldToValidate).forEach((key, value) => {
+    Object.keys(fieldToValidate).forEach((key, ) => {
       validationStatus = validationStatus && validateField(key);
     });
     return validationStatus;
