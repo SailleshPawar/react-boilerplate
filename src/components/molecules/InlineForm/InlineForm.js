@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Button from '../../atoms/Button/Button';
 
-
 const InlineForm = (props) => {
   return (
     <form
