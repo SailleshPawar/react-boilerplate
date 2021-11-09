@@ -1,0 +1,36 @@
+{
+  "extends": [ "airbnb-base" ],
+  "plugins": [ "react" ],
+  "parser": "babel-eslint",
+  "rules": {
+    "react/prop-types": [2],
+    "no-unused-vars": 0,
+    "react/no-multi-comp": 0,
+    "import/default": 0,
+    "import/no-duplicates": 0,
+    "import/named": 0,
+    "import/namespace": 0,
+    "import/no-unresolved": 0,
+    "import/no-named-as-default": 2,
+    "import/extensions": ["off", "never"],
+    "comma-dangle": 0,
+    "indent": [2, 2, {"SwitchCase": 1}],
+    "no-console": 0,
+    "no-alert": 0,
+    "no-multi-spaces": ["error", { "exceptions": { "ImportDeclaration": true} }], // For import spacing
+    "linebreak-style": 0,
+    "react/jsx-filename-extension": 0,
+    "arrow-body-style": 0,
+    "react/jsx-space-before-closing": 0,
+    "no-undef": 0,
+    "eol-last": 0,
+    "max-len": ["error", 120],
+    "react/forbid-prop-types": 0,
+    "object-curly-spacing": 0
+  },
+  "settings": {
+    "import/resolve": {
+      "moduleDirectory": ["node_modules", "src"]
+    }
+  }
+}

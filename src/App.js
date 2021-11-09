@@ -1,14 +1,12 @@
-import React from "react";
-import { ThemeProvider } from "@material-ui/core/styles";
-import baseTheme from "../src/themes";
-
-import HomePage from "../src/pages/HomePage";
+import React  from 'react';
+import './css/style.css';
+import HomePage from './pages/HomePage';
 
 const App = () => {
   return (
-    <ThemeProvider theme={baseTheme}>
+    <div className="App">
       <HomePage />
-    </ThemeProvider>
+    </div>
   );
 };
 

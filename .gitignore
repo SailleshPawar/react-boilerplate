@@ -2,6 +2,12 @@
 
 # dependencies
 /node_modules
+.webpack.config.js.swp
+.package.json.swp
+.eslintcache
+.scannerwork
+package-lock.json
+
 /.pnp
 .pnp.js
 
