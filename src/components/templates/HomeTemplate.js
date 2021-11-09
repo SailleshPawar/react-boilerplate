@@ -15,27 +15,7 @@ const HomeTemplate = () => {
       <Hero title="This is my hero" description="This is the hero description text" heroimgsrc={heroImg}
         heroimgalt="Alt"/>
       <Section title="Hi I'm a section title" description="This is a description of the section">
-        <CardList listItems={[
-          {
-            styleModifier: 'c-card--dark',
-            title: 'Squeeze Its',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit .'
-          },
-          {
-            title: 'Capri Suns',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit .'
-          },
-          {
-            title: 'Hugs',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit .'
-          },
-          {
-            href: 'http://google.com',
-            title: 'Mondo',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit .'
-          }
-        ]}/>
-
+        <CardList/>
       </Section>
 
       <Section title="Hi I'm another section" description="This is a different description">

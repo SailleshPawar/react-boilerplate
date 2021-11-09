@@ -4,7 +4,6 @@ import { withKnobs } from '@storybook/addon-knobs/react';
 import { withSmartKnobs } from 'storybook-addon-smart-knobs';
 import Button from './Button';
 
-
 const stories = storiesOf('Buttons/Button', module);
 
 stories.addDecorator(withSmartKnobs).addDecorator(withKnobs);
