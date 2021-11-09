@@ -39,32 +39,16 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### `VSCode Extensions for React Developers`
+1. ES7 React/Redux/GraphQL/React-Native snippets:
+   This is a great extension that almost every React developer uses. It allows you to easily generate syntax and code snippets for React, Redux, Graphql, and React Native.
+   So if you want to speed up the process of developing React applications, this is a good extension to start with. It has almost 3 million downloads and 5-star reviews.
 
-### Code Splitting
+2. Prettier:
+   Without any doubts, Prettier is a very useful VSCode extension. It allows you to format your code in a good-looking and easy-to-read structure. It has almost 13 million downloads and 4-star reviews.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+3. Auto Import:
+   Auto import is a very good VSCode extension that allows you to automatically complete imports. It basically auto imports your modules and this is great because modules are everywhere in React code.
+   The extension has over a million downloads and 4-star reviews.
