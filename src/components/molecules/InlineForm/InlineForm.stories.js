@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { withKnobs } from '@storybook/addon-knobs/react';
 import { withSmartKnobs } from 'storybook-addon-smart-knobs';
-import { InlineForm } from './InlineForm';
+import  InlineForm  from './InlineForm';
 
 const stories = storiesOf('Forms/InlineForm', module);
 
