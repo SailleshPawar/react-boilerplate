@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { withKnobs } from '@storybook/addon-knobs/react';
 import { withSmartKnobs } from 'storybook-addon-smart-knobs';
-import { TextPassage } from './TextPassage';
+import  TextPassage  from './TextPassage';
 
 const stories = storiesOf('Text/TextPassage', module);
 

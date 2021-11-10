@@ -52,3 +52,4 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 3. Auto Import:
    Auto import is a very good VSCode extension that allows you to automatically complete imports. It basically auto imports your modules and this is great because modules are everywhere in React code.
    The extension has over a million downloads and 4-star reviews.
+
