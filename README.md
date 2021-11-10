@@ -40,6 +40,96 @@ Instead, it will copy all the configuration files and the transitive dependencie
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 
+## Using This Repo
+
+- `npm install`
+- `npm start` will start the application
+- `npm run storybook` will start the storybook.
+
+## Building components
+
+Start building in the `src/components` folder with this folder structure
+
+```js
+- ComponentName
+  - ComponentName.stories.js
+  - ComponentName.js
+```
+
+Create `src/components/Button` and add `Button.css`, `Button.js` and `Button.stories.js`
+
+__Button.js__ will be:
+
+```js
+import React, { Component } from 'react';
+import './Button.scss';
+
+export class Button extends Component {
+  render() {
+    return (
+      <button className="Button" {...this.props}> {this.props.children} </button>
+    );
+  }
+}
+```
+
+__Button.stories.js__ will be:
+
+```js
+import React from 'react';
+import { storiesOf } from '@storybook/react';
+import { Button } from './Button';
+
+let stories = storiesOf('Button', module);
+
+stories.add('Default', () =>
+  <Button onClick={() => console.log("clicked!!")}>
+    Hello Button
+  </Button>
+);
+
+```
+
+__Button.css__ is plain CSS, but will automatically be loaded when the component is used.
+
+### Run Storybook
+
+```bash
+npm run storybook
+```
+
+## Add Button to App.js
+
+```jsx
+import React, { Component } from 'react';
+import { Button } from './components/Button/Button';
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Button onClick={() => alert('i was clicked!')} > Click Me Please </Button>
+      </div>
+    );
+  }
+}
+
+export default App;
+```
+
+### Run the application
+
+```bash
+npm start
+```
+
+## Adding Sass
+
+Adding Sass involves "ejecting" out of create react app. This process is out of the scope of this demo, but I'll include some links below.
+
+- [Adding Sass support to Create React App](https://medium.com/front-end-hacking/how-to-add-sass-or-scss-to-create-react-app-c303dae4b5bc)
+- [Adding Sass support to Storybook](https://storybook.js.org/configurations/custom-webpack-config/)
+
 
 ### `VSCode Extensions for React Developers`
 1. ES7 React/Redux/GraphQL/React-Native snippets:
