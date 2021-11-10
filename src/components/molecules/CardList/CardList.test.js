@@ -3,8 +3,8 @@ import { shallow } from 'enzyme';
 import CardList from './CardList';
 import Card from '../../atoms/Card/Card';
 
-describe('Card', () => {
-  it('Renders Card', () => {
+describe('CardList', () => {
+  it('Renders CardList', () => {
     const wrapper = shallow(<CardList/>);
     expect(wrapper)
       .toBeDefined();

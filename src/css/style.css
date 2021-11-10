@@ -497,7 +497,7 @@ tr {
     #COMPONENTS
 \*------------------------------------*/
 /**
- * Global 
+ * Global
  */
 /*------------------------------------*\
     $FOOTER
@@ -538,27 +538,27 @@ tr {
   display: inline; }
 
 /**
- * Logo image 
+ * Logo image
  */
 .c-logo__img {
   display: block; }
 
 /**
- * Page 
+ * Page
  */
 /*------------------------------------*\
     #SECTION
 \*------------------------------------*/
 /**
  * Section
- * 1) A section is a discrete section of a web page 
+ * 1) A section is a discrete section of a web page
  */
 .c-section {
   padding: 2rem; }
 
 /**
  * Section header
- * 1) contains the section title, description and other header content 
+ * 1) contains the section title, description and other header content
  */
 .c-section__header {
   display: flex;
@@ -567,14 +567,14 @@ tr {
   margin-bottom: 2rem; }
 
 /**
- * Section title 
+ * Section title
  */
 .c-section__title {
   font-size: 2rem;
   margin: 0; }
 
 /**
- * Section description 
+ * Section description
  */
 .c-section__description {
   margin: 0; }
@@ -597,8 +597,21 @@ tr {
 .c-page-header__desc {
   margin-bottom: 2rem; }
 
+/*------------------------------------*\
+    #COUNTER
+\*------------------------------------*/
 /**
- * Navigation 
+ * Counter
+ */
+.c-counter-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/**
+ * Navigation
  */
 /*------------------------------------*\
     #PRIMARY NAVIGATION
@@ -624,13 +637,13 @@ tr {
 
 /**
  * Primary nav item
- * 1) individual list item 
+ * 1) individual list item
  */
 .c-primary-nav__item {
   margin-right: 2rem; }
 
 /**
- * Forms 
+ * Forms
  */
 /*------------------------------------*\
     #FIELDS
@@ -676,7 +689,7 @@ tr {
 
 /**
  * Secondary button
- * 1) Different button style 
+ * 1) Different button style
  */
 .c-btn--secondary {
   background: #eee;
@@ -699,7 +712,7 @@ tr {
   padding: 0.5rem; }
 
 /**
- * Blocks 
+ * Blocks
  */
 /*------------------------------------*\
     #CARD
@@ -716,14 +729,14 @@ tr {
     #HERO
 \*------------------------------------*/
 /**
- * 1) A hero is a pronounced block typically situated at the top of a page layout 
+ * 1) A hero is a pronounced block typically situated at the top of a page layout
  */
 .c-hero {
   background: #eee;
   position: relative; }
 
 /**
- * Hero image 
+ * Hero image
  */
 .c-hero__img {
   display: block;
@@ -734,7 +747,7 @@ tr {
 
 /**
  * Hero body
- * 1) Contains the hero text, call to action, and other things 
+ * 1) Contains the hero text, call to action, and other things
  */
 .c-hero__body {
   position: absolute;
@@ -744,21 +757,21 @@ tr {
   z-index: 1; }
 
 /**
- * Hero title 
+ * Hero title
  */
 .c-hero__title {
   font-size: 3rem;
   margin: 0; }
 
 /**
- * Hero description 
+ * Hero description
  */
 .c-hero__description {
   font-size: 1.4rem;
   margin: 0; }
 
 /**
- * Images 
+ * Images
  */
 /*------------------------------------*\
     #ICON
@@ -771,7 +784,7 @@ tr {
   width: 16px; }
 
 /**
- * Text 
+ * Text
  */
 /*------------------------------------*\
     #TEXT PASSAGE
@@ -850,13 +863,13 @@ tr {
     line-height: 1.6; }
 
 /**
- * Lists 
+ * Lists
  */
 /*------------------------------------*\
     #CARD LIST
 \*------------------------------------*/
 /**
- * 1) A collection of cards displayed as a list or grid 
+ * 1) A collection of cards displayed as a list or grid
  */
 .c-card-list {
   margin: 0;

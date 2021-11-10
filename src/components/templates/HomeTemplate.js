@@ -6,6 +6,7 @@ import Section from '../molecules/Section/Section';
 import CardList from '../molecules/CardList/CardList';
 import TextPassage from '../atoms/TextPassage/TextPassage';
 import Footer from '../organisms/Footer/Footer';
+import Counter from '../molecules/Counter/Counter';
 
 const HomeTemplate = () => {
   return (
@@ -17,7 +18,9 @@ const HomeTemplate = () => {
       <Section title="Hi I'm a section title" description="This is a description of the section">
         <CardList/>
       </Section>
-
+      <Section title="Hi I'm a section title" description="This is a description of the section">
+        <Counter/>
+      </Section>
       <Section title="Hi I'm another section" description="This is a different description">
         <div className="l-linelength-container">
           <TextPassage>
