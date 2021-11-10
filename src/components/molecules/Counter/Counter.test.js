@@ -12,8 +12,8 @@ describe('Counter Testing', () => {
     expect(wrapper.find('h1').text()).toContain('This is counter');
   });
 
-  test('render a button with text of `increment`', () => {
-    expect(wrapper.find('#increment-btn').text()).toBe('Increment');
+  test('render a button with text of `<Button />`', () => {
+    expect(wrapper.find('#increment-btn').text()).toBe('<Button />');
   });
 
   test('render the initial value of state in a div', () => {
