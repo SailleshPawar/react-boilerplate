@@ -143,3 +143,7 @@ Adding Sass involves "ejecting" out of create react app. This process is out of 
    Auto import is a very good VSCode extension that allows you to automatically complete imports. It basically auto imports your modules and this is great because modules are everywhere in React code.
    The extension has over a million downloads and 4-star reviews.
 
+
+## Reference for Atomic Design:
+
+https://bradfrost.com/blog/post/atomic-web-design/
