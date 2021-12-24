@@ -131,7 +131,7 @@ Adding Sass involves "ejecting" out of create react app. This process is out of 
 - [Adding Sass support to Storybook](https://storybook.js.org/configurations/custom-webpack-config/)
 
 
-### `VSCode Extensions for React Developers`
+## VSCode Extensions for React Developers
 1. ES7 React/Redux/GraphQL/React-Native snippets:
    This is a great extension that almost every React developer uses. It allows you to easily generate syntax and code snippets for React, Redux, Graphql, and React Native.
    So if you want to speed up the process of developing React applications, this is a good extension to start with. It has almost 3 million downloads and 5-star reviews.
